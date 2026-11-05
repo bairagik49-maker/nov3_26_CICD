@@ -1,1 +1,5 @@
 name: myproject
+
+on:
+  push:
+    workflow_dispatch:  
