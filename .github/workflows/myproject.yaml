@@ -2,4 +2,8 @@ name: myproject
 
 on:
   push:
-    workflow_dispatch:  
+    workflow_dispatch:
+job:
+  myjobs1:
+    runs-on: ubuntu-latest
+
